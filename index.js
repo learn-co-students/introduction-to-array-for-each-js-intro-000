@@ -1,10 +1,7 @@
 function changeCompletely(element, index, array){
-  array.forEach(element => {
-
-  })
+    array[]
 }
 
 function doToElementsInArray(array, callback){
-
-
+  array.forEach(callback)
 }
