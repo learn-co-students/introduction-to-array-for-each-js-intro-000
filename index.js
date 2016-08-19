@@ -1,5 +1,5 @@
 function changeCompletely(element, index, array){
-    array[]
+    array[index] = element + "is awesome!!"
 }
 
 function doToElementsInArray(array, callback){
