@@ -4,6 +4,6 @@ function doToElementsInArray(array, callback) {
 
 
 function changeCompletely(element, index, array) {
-  array[index] = (Math.random() * 100).toString() + '!!!'
+  array[index] = element + '!!!'
 }
  
