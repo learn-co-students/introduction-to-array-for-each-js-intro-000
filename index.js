@@ -8,6 +8,6 @@ function changeCompletely(element, index, array) {
 
 var animals = ['dog', 'fish', 'cat']
 
-doToElementsInArray (amimals, changeCompletely)
+doToElementsInArray(animals, changeCompletely)
 
 console.log(animals)
