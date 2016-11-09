@@ -11,5 +11,3 @@ function changeCompletely(element, index, array) {
 var animals = ["dog", "fish", "cat"]
 
 doToElementsInArray(animals, changeCompletely)
-
-console.log(animals)
