@@ -14,13 +14,13 @@ describe('index', () => {
     src: fs.readFileSync(path.resolve(__dirname, '..', 'index.js'), 'utf-8')
   })
 
-  describe('changeCompletely(element, index, array)', () => {
     it('is defined', () => {
       expect(changeCompletely).to.be.a('function')
     })
 
     it('completely alters an array in place when used with Array.prototype.forEach', () => {
       const array = [1, 2, 3]
+      describe('changeCompletely(element, index, array)', () => {
 
       expect(array.forEach(changeCompletely)).not.to.eql([1, 2, 3])
     })
