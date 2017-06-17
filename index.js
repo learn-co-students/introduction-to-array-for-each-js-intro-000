@@ -31,4 +31,4 @@ var animals = ["dog", "fish", "cat"]
 
 doToElementsInArray(animals, changeCompletely)
 
-console.log(animals);
+console.log(animals)
