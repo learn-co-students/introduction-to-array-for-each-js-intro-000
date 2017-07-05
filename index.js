@@ -1,4 +1,9 @@
-// Add your doToElementsInArray() function here:
+function doToElementsInArray(array, callback) {
+  array.forEach(callback);
+}
 
+function changeCompletely(element, index, array) {
+  array[index] = element + 1
+}
 
-// Add your changeCompletely() function here:
+doToElementsInArray(["Danny", "Laura", "Lauren", "Marvin", "George"], changeCompletely)
