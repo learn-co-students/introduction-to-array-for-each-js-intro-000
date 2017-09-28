@@ -3,7 +3,7 @@
   "version": "0.2.0",
   "description": "A short intro to JavaScript&#39;s built-in forEach function",
   "engines": {
-    "node": "8.x",
+    "node": "6.x",
     "npm": "4.x"
   },
   "main": "index.js",
