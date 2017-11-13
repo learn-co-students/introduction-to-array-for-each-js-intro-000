@@ -1,10 +1,11 @@
+
 {
   "name": "introduction-to-array-prototype-for-each",
-  "version": "0.2.0",
+  "version": "0.1.0",
   "description": "A short intro to JavaScript&#39;s built-in forEach function",
   "engines": {
-    "node": "8.x",
-    "npm": "4.x"
+    "node": "6.x",
+    "npm": "3.x"
   },
   "main": "index.js",
   "scripts": {
@@ -16,11 +17,6 @@
   },
   "keywords": [
     "javascript",
-    "forEach",
-    "iteration",
-    "callback",
-    "looping",
-    "for loop",
     "flatiron",
     "learn"
   ],
@@ -29,7 +25,7 @@
   "bugs": {
     "url": "https://github.com/learn-co-curriculum/introduction-to-array-prototype-for-each/issues"
   },
-  "homepage": "https://github.com/learn-co-curriculum/introduction-to-array-prototype-for-each",
+  "homepage": "https://github.com/learn-co-curriculum/introduction-to-array-prototype-for-each#readme",
   "devDependencies": {
     "chai": "^3.5.0",
     "chai-spies": "^0.7.1",
