@@ -1,4 +1,9 @@
-// Add your doToElementsInArray() function here:
+function doToElementsInArray(arr, callback){
+  return arr.forEach(callback)
+}
 
+function changeCompletely(element, index, arr){
 
-// Add your changeCompletely() function here:
+  arr[index] = Math.floor(Math.random() * 100 + 2).toString() + `${arr[index]}s!!!`
+
+}
